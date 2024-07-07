@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --copr: #ff4500;
+  --copr-l: hsla(16, 100%, 50%, 0.55);
+  --copr-d: hsla(16, 100%, 50%, 0.85);
+  
+  --cose: #ffd700;
+  --cose-l: hsla(51, 100%, 50%, 0.55);
+  --cose-d: hsla(51, 100%, 50%, 0.85);
+  
+  --cote:  #4bbbe8;
+  --cote-l: hsla(197, 77%, 60%, 0.55);
+  --cote-d:  hsla(197, 77%, 60%, 0.85);
+   
+  --coqu: #f4f4f4;
+  --coqu-1: hsla(0, 0%, 96%, 0.55);
+  --coqu-1: hsla(0, 0%, 96%, 0.85);
+
+}
+
