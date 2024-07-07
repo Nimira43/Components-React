@@ -37,7 +37,7 @@ body {
 }
 
 .container > * {
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 .container {
@@ -87,10 +87,36 @@ header#header {
 section#booking-content {
   background-color: var(--cose);
   grid-column: center-start / col-end 6;
+  height: 400px;
 }
 
 section#booking-date {
   background-color: var(--cote);
-  grid-column: col-start 7 / center-end ;
+  grid-column: col-start 7 / center-end;
+  height: 400px;
+}
+
+section#villas {
+  background-color: var(--copr);
+  grid-column: container-start / container-end;
+  height: 400px;
+}
+
+section#motto {
+  background-color: var(--cose);
+  grid-column: container-start / container-end;
+  height: 400px;
+}
+
+section#events-content {
+  background-color: var(--cote);
+  grid-column: container-start / col-end 9;
+  height: 400px;
+}
+
+section#events-text {
+  background-color: var(--copr);
+  grid-column: col-start 10 / center-end;
+  height: 400px;
 }
 
