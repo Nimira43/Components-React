@@ -25,5 +25,53 @@
   --coqu-1: hsla(0, 0%, 96%, 0.55);
   --coqu-1: hsla(0, 0%, 96%, 0.85);
 
+  --trdu: 0.3s;
+  --fst: calc(2rem + 2vw);
+  --pase: 8vh 3vw;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.7;
+  background-color: var(--coqu);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 
+    [container-start] 1fr [center-start] repeat(
+      10,
+      [col-start] minmax (min-content, 11rem) [col-end]
+    )
+    [center-end] 1fr [container-end];
+  grid-template-rows: 100vh repeat(8, min-content);
+}
+
+a:link,
+a:visited {
+  color: var(--coqu);
+  text-decoration: none;
+  font-size: calc(0.5rem + 1vw);
+  padding: 1rem 2rem;
+  border-radius: 0.3rem;
+  position: relative;
+  transition: all var(--trdu) cubic-bezier(1, 0, 0, 1);
+  z-index: 1;
+}
+
+p {
+  color: white;
+  font-size: calc(1rem + 1vw);
+  font-weight: 200;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 4rem;
+}
+
+i {
+  font-size: var(--font-size-title);
+  color: var(--cose);
 }
 
