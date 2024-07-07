@@ -149,3 +149,9 @@ section#testimonials {
   grid-column: center-start / center-end;
   height: 400px;
 }
+
+footer#footer {
+  background-color: var(--copr);
+  grid-column: container-start / container-end;
+  height: 400px;
+}
