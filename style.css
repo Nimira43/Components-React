@@ -120,3 +120,32 @@ section#events-text {
   height: 400px;
 }
 
+section#gallery-text {
+  background-color: var(--cose);
+  grid-column: center-start / col-end 1;
+  height: 400px;
+}
+
+section#gallery-carousel {
+  background-color: var(--cote);
+  grid-column: col-start 2/ container-end;
+  height: 400px;
+}
+
+section#features-content {
+  background-color: var(--copr);
+  grid-column: container-start / col-end 9;
+  height: 400px;
+}
+
+section#features-text {
+  background-color: var(--cose);
+  grid-column: col-start 10 / center-end;
+  height: 400px;
+}
+
+section#testimonials {
+  background-color: var(--cote);
+  grid-column: center-start / center-end;
+  height: 400px;
+}
