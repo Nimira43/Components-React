@@ -71,7 +71,7 @@ li {
 }
 
 i {
-  font-size: var(--font-size-title);
+  font-size: var(--fst);
   color: var(--cose);
 }
 
