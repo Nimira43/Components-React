@@ -25,6 +25,8 @@
   --coqu-1: hsla(0, 0%, 96%, 0.55);
   --coqu-1: hsla(0, 0%, 96%, 0.85);
 
+  --text: #f0e68c;
+
   --trdu: 0.3s;
   --fst: calc(2rem + 2vw);
   --pase: 8vh 3vw;
@@ -54,6 +56,7 @@ body {
 a:link,
 a:visited {
   color: var(--coqu);
+  /* color: var(--text); */
   text-decoration: none;
   font-size: calc(0.5rem + 1vw);
   padding: 1rem 2rem;
@@ -64,7 +67,7 @@ a:visited {
 }
 
 p {
-  color: white;
+  color: var(--text);
   font-size: calc(1rem + 1vw);
   font-weight: 200;
 }
@@ -80,9 +83,45 @@ i {
 }
 
 header#header {
-  background-color: var(--copr);
   grid-column: container-start / container-end;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.5)),
+    url('images/hero-landing.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
+.header__main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.header__main-nav input[type=checkbox] {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  height: 5rem;
+  width: 5rem;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.header__main-nav--hamburger {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  height: 5rem;
+  width: 5rem;
+  padding: 1rem;
+  background-color: var(--cose);
+  z-index: 2;
+}
+
 
 section#booking-content {
   background-color: var(--cose);
