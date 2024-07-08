@@ -159,18 +159,36 @@ header#header {
   transform: rotate(135deg);
 }
 
-.header__main-nav input[type=checkbox]:checked+.header__main-nav--hamburger > div::before {
+.header__main-nav input[type=checkbox]:checked + .header__main-nav--hamburger > div::before {
   left: 0;
   top: 0;
   width: 100%;
   transform: rotate(270deg);
 }
 
-.header__main-nav input[type=checkbox]:checked+.header__main-nav--hamburger>div::after {
+.header__main-nav input[type=checkbox]:checked + .header__main-nav--hamburger > div::after {
   opacity: 0;
 }
 
+.header__main-nav input[type=checkbox]:checked:hover + .header__main-nav--hamburger > div {
+  transform: rotate(405deg);
+}
 
+.header__main-nav--menu {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* visibility: hidden; */
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.header__main-nav--menu > div  {
+  
+}
 
 section#booking-content {
   background-color: var(--cose);
