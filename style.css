@@ -25,7 +25,8 @@
   --coqu-1: hsla(0, 0%, 96%, 0.55);
   --coqu-1: hsla(0, 0%, 96%, 0.85);
 
-  --text: #f0e68c;
+  --lite: #f0e68c;
+  --dark: #330000;
 
   --trdu: 0.3s;
   --fst: calc(2rem + 2vw);
@@ -55,8 +56,8 @@ body {
 
 a:link,
 a:visited {
+  /* color: var(--cose); */
   color: var(--coqu);
-  /* color: var(--text); */
   text-decoration: none;
   font-size: calc(0.5rem + 1vw);
   padding: 1rem 2rem;
@@ -67,7 +68,7 @@ a:visited {
 }
 
 p {
-  color: var(--text);
+  color: var(--lite);
   font-size: calc(1rem + 1vw);
   font-weight: 200;
 }
@@ -118,10 +119,45 @@ header#header {
   height: 5rem;
   width: 5rem;
   padding: 1rem;
-  background-color: var(--cose);
+  background-color: var(--copr);
+  z-index: 2;
+  display: grid;
+  place-items: center;
+}
+
+.header__main-nav--hamburger > div {
+  position: relative;
+  height: 0.3rem;
+  width: 100%;
+  background-color: var(--coqu);
+  display: grid;
+  place-items: center;
+  transition: all var(--trdu) ease-in-out;
+}
+
+.header__main-nav--hamburger > div::before,
+.header__main-nav--hamburger > div::after {
+  content: '';
+  position: absolute;
+  top: -1rem;
+  width: 60%;
+  height: inherit;
+  background-color: inherit;
   z-index: 2;
 }
 
+.header__main-nav--hamburger > div::before {
+  left: 0; 
+}
+
+.header__main-nav--hamburger > div::after {
+  top: 1rem;
+  right: 0;
+}
+
+.header__main-nav input[type=checkbox]:checked + .header__main-nav--hamburger {
+  transform: rotate(135deg);
+}
 
 section#booking-content {
   background-color: var(--cose);
