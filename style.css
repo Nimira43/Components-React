@@ -155,9 +155,22 @@ header#header {
   right: 0;
 }
 
-.header__main-nav input[type=checkbox]:checked + .header__main-nav--hamburger {
+.header__main-nav input[type=checkbox]:checked + .header__main-nav--hamburger > div {
   transform: rotate(135deg);
 }
+
+.header__main-nav input[type=checkbox]:checked+.header__main-nav--hamburger > div::before {
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: rotate(270deg);
+}
+
+.header__main-nav input[type=checkbox]:checked+.header__main-nav--hamburger>div::after {
+  opacity: 0;
+}
+
+
 
 section#booking-content {
   background-color: var(--cose);
