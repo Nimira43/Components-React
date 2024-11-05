@@ -4,3 +4,104 @@
   font-family: 'League Spartan', sans-serif;
   font-weight: 300;
 }
+
+.outline, .solid {
+  background-color: #444;  
+}
+
+button {
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+}
+
+/* Dark */ 
+.btn-dark { 
+  background-color: #111; 
+  color: #fafafa; 
+} 
+.btn-dark-outline { 
+  border: 1px solid #111; 
+  color: #111; 
+  background-color: transparent; 
+} 
+
+/* Light */ 
+.btn-light { 
+  background-color: #fafafa; 
+  color: #111; 
+} 
+.btn-light-outline { 
+  border: 1px solid #fafafa; 
+  color: #fafafa; 
+  background-color: transparent; 
+} 
+
+/* Mist */ 
+.btn-mist { 
+  background-color: #ccc; 
+  color: #333; 
+} 
+.btn-mist-outline { 
+  border: 1px solid #ccc; 
+  color: #ccc; 
+  background-color: transparent; 
+} 
+
+/* Wisdom */ 
+.btn-wisdom { 
+  background-color: #1e90ff; 
+  color: #fafafa; 
+} 
+.btn-wisdom-outline { 
+  border: 1px solid #1e90ff; 
+  color: #1e90ff; 
+  background-color: transparent; 
+} 
+
+/* Gold */ 
+.btn-gold { 
+  background-color: #ffd700; 
+  color: #111; 
+} 
+.btn-gold-outline { 
+  border: 1px solid #ffd700; 
+  color: #ffd700; 
+  background-color: transparent; 
+}
+
+  /* Ember */ 
+.btn-ember { 
+  background-color: #ff4500; 
+  color: #fafafa; 
+} 
+.btn-ember-outline { 
+  border: 1px solid #ff4500; 
+  color: #ff4500; 
+  background-color: transparent;
+}  
+  
+/* Accept */ 
+.btn-accept { 
+  background-color: #228b22; 
+  color: #fafafa; 
+} 
+.btn-accept-outline { 
+  border: 1px solid #228b22; 
+  color: #228b22; 
+  background-color: transparent; 
+} 
+
+/* Blaze */ 
+.btn-blaze { 
+ background-color: #b5341d; 
+  color: #fafafa; 
+} 
+.btn-blaze-outline { 
+  border: 1px solid #b5341d; 
+  color: #b5341d; 
+  background-color: transparent; 
+}
