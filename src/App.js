@@ -6,7 +6,7 @@ function App() {
     <>
       <h1>Components React</h1>
       <div className='solid'>
-        {/* <Button /> */}
+        <Button />
         <button className='btn-dark'>Dark</button>
         <button className='btn-light'>Light</button>
         <button className='btn-mist'>Mist</button>
@@ -27,7 +27,6 @@ function App() {
         <button className='btn-blaze-outline'>Blaze</button>
       </div>
     </>
-    
   )
 }
 
