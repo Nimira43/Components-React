@@ -14,7 +14,7 @@ function App() {
         <button className='btn-ember'>Ember</button>
         <button className='btn-accept'>Accept</button>
         <button className='btn-gold'>Gold</button>
-        <button className='btn-blaze'>Blaze</button>
+        <button className='btn-warm'>Warm</button>
       </div>
       <div className='outline'>  
         <button className='btn-dark-outline'>Dark</button>
@@ -24,7 +24,7 @@ function App() {
         <button className='btn-ember-outline'>Ember</button>
         <button className='btn-accept-outline'>Accept</button>
         <button className='btn-gold-outline'>Gold</button>
-        <button className='btn-blaze-outline'>Blaze</button>
+        <button className='btn-warm-outline'>Warm</button>
       </div>
     </>
   )
