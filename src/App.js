@@ -4,7 +4,7 @@ import './index.css'
 function App() {
   return (
     <>
-      <h1>Components React</h1>
+      <h1 className='temp-heading'>Components React</h1>
       <div className='solid'>
         <Button />
         <button className='btn-dark'>Dark</button>

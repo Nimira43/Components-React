@@ -68,6 +68,12 @@ h1 {
   line-height: calc(var(--h1-size) * var(--line-height)); 
   font-weight: 400;
 } 
+
+.temp-heading {
+  color: white;
+  padding: 20px;
+}
+
 h2 { 
   font-size: var(--h2-size); 
   line-height: calc(var(--h2-size) * var(--line-height)); 
