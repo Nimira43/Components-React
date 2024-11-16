@@ -42,11 +42,9 @@
 }
 
 body {
-  background-color: var(--grey-dk);
   line-height: var(--line-height);
   padding: var(--lg);
 } 
-
 
 a {
   text-decoration: none;
@@ -68,11 +66,6 @@ h1 {
   line-height: calc(var(--h1-size) * var(--line-height)); 
   font-weight: 400;
 } 
-
-.temp-heading {
-  color: white;
-  padding: 20px;
-}
 
 h2 { 
   font-size: var(--h2-size); 
@@ -156,6 +149,7 @@ button {
   padding: var(--xs) var(--sm); 
   font-size: 18px; 
   font-weight: bold;
+  cursor: pointer
 }
 
 button:hover {

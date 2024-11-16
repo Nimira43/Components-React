@@ -1,7 +1,7 @@
-function Button() {
+function Button({ text }) {
   return(
     <button>
-      Default
+      {text}
     </button>
   )
 }

@@ -8,13 +8,13 @@ function App() {
         <Button text='Submit'></Button>
       </div>
       <div>
-        <Button text='Submit'></Button>
+        <Button></Button>
       </div>
       <div>
-        <Button text='Submit'></Button>
+        <Button></Button>
       </div>
       <div>
-        <Button text='Submit'></Button>
+        <Button></Button>
       </div>
     </div>
   )
