@@ -1,12 +1,8 @@
-import Button from '../Button'
-import '../index.css'
-
-function ButtonDisplayTemplate() {
+function Prototype() {
   return (
     <>
       <h1 className='temp-heading'>Components React</h1>
-      <div className='solid'>
-        <Button />
+      <div className='solid'>  
         <button className='btn-dark'>Dark</button>
         <button className='btn-light'>Light</button>
         <button className='btn-mist'>Mist</button>
@@ -30,4 +26,4 @@ function ButtonDisplayTemplate() {
   )
 }
 
-export default ButtonDisplayTemplate
+export default Prototype
