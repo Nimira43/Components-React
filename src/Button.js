@@ -19,11 +19,11 @@ function Button({
 
 Button.propTypes = {
   checkVariationValue: ({
-    primary,
-    secondary,
-    forest,
-    alert,
-    blaze,
+    primary, // #ff4500
+    secondary, // #111
+    forest, // #228b22
+    alert, // #ffd700
+    blaze, // #b41818
   }) => {
     const count = 
       Number(!!primary) +
