@@ -4,14 +4,14 @@ function Button({
   children,
   primary,
   secondary,
-  success,
-  warning,
-  danger,
+  forest,
+  alert,
+  blaze,
   outline,
   rounded 
 }) {
   return(
-    <button>
+    <button className='px-3 py-1.5 border border-[#ff4500] bg-[#ff4500] text-[#fffcfa]'>
       {children}
     </button>
   )
@@ -21,19 +21,19 @@ Button.propTypes = {
   checkVariationValue: ({
     primary,
     secondary,
-    success,
-    warning,
-    danger
+    forest,
+    alert,
+    blaze,
   }) => {
     const count = 
       Number(!!primary) +
       Number(!!secondary) +
-      Number(!!warning) +
-      Number(!!success) +
-      Number(!!danger) 
+      Number(!!forest) +
+      Number(!!alert) +
+      Number(!!blaze) 
     
       if (count > 1) {
-        return new Error('Only one of primary, secondary, success, warning or danger can be true')
+        return new Error('Only one of primary, secondary, forest, alert or blaze can be true')
       }
   }
 }
