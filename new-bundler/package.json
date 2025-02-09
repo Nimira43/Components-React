@@ -1,0 +1,31 @@
+{
+  "name": "components-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.4",
+    "html-webpack-plugin": "^5.3.2",
+    "babel-loader": "^8.2.3",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "postcss": "^8.4.49",
+    "postcss-loader": "^6.2.1",
+    "tailwindcss": "^3.4.17",
+    "autoprefixer": "^10.4.20",
+    "classnames": "^2.3.1"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  }
+}
