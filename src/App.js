@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Button from './Button'
 import './index.css'
@@ -7,10 +6,10 @@ function App() {
   return (
     <div>
       <div>
-        <Button success outline>Login</Button>
+        <Button primary outline>Login</Button>
       </div>
       <div>
-        <Button secondary outline rounded>Register</Button>
+        <Button dark outline rounded>Register</Button>
       </div>
       <div>
         <Button forest outline rounded>Submit</Button>
