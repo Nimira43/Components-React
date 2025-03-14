@@ -6,19 +6,19 @@ function App() {
   return (
     <div>
       <div>
-        <Button primary outline>Login</Button>
+        <Button>Login</Button>
       </div>
       <div>
-        <Button dark outline rounded>Register</Button>
+        <Button>Register</Button>
       </div>
       <div>
-        <Button forest outline rounded>Submit</Button>
+        <Button>Submit</Button>
       </div>
       <div>
-        <Button alert rounded>Cancel</Button>
+        <Button>Cancel</Button>
       </div>
       <div>
-        <Button blaze rounded>Read more</Button>
+        <Button>Read more</Button>
       </div>
     </div>
   )

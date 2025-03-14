@@ -4,37 +4,16 @@ import classNames from 'classnames'
 
 function Button({
   children,
-  primary = false,
-  dark = false,
-  forest = false,
-  alert = false,
-  blaze = false,
-  outline = false,
-  rounded = false,
-  ...rest
+  primary,
+  dark, 
+  forest, 
+  alert,
+  blaze, 
+  outline, 
+  rounded
 }) {
-  const classes = classNames(
-    'px-3 py-1.5 border',
-    {
-      'border-primary bg-primary text-light': primary && !outline,
-      'border-dark bg-dark text-light': dark && !outline,
-      'border-forest bg-forest text-light': forest && !outline,
-      'border-alert bg-alert text-dark': alert && !outline,
-      'border-blaze bg-blaze text-light': blaze && !outline,
-      'bg-transparent': outline,
-      'text-primary': outline && primary,
-      'text-dark': outline && dark,
-      'text-forest': outline && forest,
-      'text-alert': outline && alert,
-      'text-blaze': outline && blaze,
-      'rounded-xl': rounded,
-      'rounded-md': !rounded,
-    },
-    rest.className
-  );
-
-  return (
-    <button {...rest} className={classes}>
+    return (
+    <button className='px-3 py-1.5 border border-primary bg-primary text-light'>
       {children}
     </button>
   );
