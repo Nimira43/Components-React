@@ -13,7 +13,10 @@ function Button({
   outline, 
   rounded
 }) {
-    return (
+  const classes = className('px-3 py-1.5 border', )
+
+  return (
+      
     <button className='px-3 py-1.5 border border-primary bg-primary text-light'>
       {children}
     </button>
