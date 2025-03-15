@@ -11,7 +11,7 @@ module.exports = {
         forest: '#228b22',
         alert: '#ffd700',
         blaze: '#b41818',
-        inform: '#0f65cf',        
+        inform: '#0f65cf'        
       },
     },
   },
