@@ -42,9 +42,6 @@ function App() {
         <Button support outline>Buttons</Button>
       </div>
       <div>
-        <Button dark outline>Outline Btn</Button>
-      </div>
-      <div>
         <Button forest outline>Outline</Button>
       </div>
       <div>
