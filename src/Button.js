@@ -1,6 +1,7 @@
 import React from 'react'
 import className from 'classnames'
 import PropTypes from 'prop-types'
+import { twMerge } from 'tailwind-merge'
 
 function Button({
   children,
@@ -15,27 +16,27 @@ function Button({
   outline, 
   rounded
 }) {
-  const classes = className('px-3 py-1.5 border rounded-md', {
-    'border-prime bg-prime text-light': prime,
-    'border-support bg-support text-light': support,
-    'border-light bg-light text-dark': light,
-    'border-dark bg-dark text-light': dark,
-    'border-forest bg-forest text-light': forest,
-    'border-alert bg-alert text-dark': alert,
-    'border-blaze bg-blaze text-light': blaze,
-    'border-inform bg-inform text-light': inform,
-    'rounded-full': rounded,
-    'bg-white': outline,
-    'text-prime': outline && prime,
-    'text-support': outline && support,
-    'text-dark': outline && dark,
-    'text-light': outline && light,
-    'text-forest': outline && forest,
-    'text-alert': outline && alert,
-    'text-blaze': outline && blaze,
-    'text-inform': outline && inform
-  })
-
+  const classes = twMerge(
+    className('px-3 py-1.5 border rounded-md', {
+      'border-prime bg-prime text-light': prime,
+      'border-support bg-support text-light': support,
+      'border-light bg-light text-dark': light,
+      'border-dark bg-dark text-light': dark,
+      'border-forest bg-forest text-light': forest,
+      'border-alert bg-alert text-dark': alert,
+      'border-blaze bg-blaze text-light': blaze,
+      'border-inform bg-inform text-light': inform,
+      'rounded-full': rounded,
+      'bg-white': outline,
+      'text-prime': outline && prime,
+      'text-support': outline && support,
+      'text-dark': outline && dark,
+      'text-forest': outline && forest,
+      'text-alert': outline && alert,
+      'text-blaze': outline && blaze,
+      'text-inform': outline && inform
+    })
+  )
   return (
     <button className={classes}>
       {children}
