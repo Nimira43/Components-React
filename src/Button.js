@@ -11,9 +11,7 @@ import { IoMdInformationCircleOutline } from "react-icons/io"
 import { IoLocationOutline } from "react-icons/io5"
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi"
 
-
-
-<MdOutlineLogin />
+{/* <MdOutlineLogin />
 <MdOutlineLogout />
 <AiOutlineHome />
 <LuSettings />
@@ -24,7 +22,7 @@ import { HiArrowLeft, HiArrowRight } from "react-icons/hi"
 <IoMdInformationCircleOutline />
 <IoLocationOutline />
 <HiArrowLeft />
-<HiArrowRight />
+<HiArrowRight /> */}
 
 function Button({
   children,
@@ -40,7 +38,7 @@ function Button({
   rounded
 }) {
   const classes = twMerge(
-    className('px-3 py-1.5 border rounded-md', {
+    className('px-3 py-1.5 border rounded-md flex items center', {
       'border-prime bg-prime text-light': prime,
       'border-support bg-support text-light': support,
       'border-light bg-light text-dark': light,
