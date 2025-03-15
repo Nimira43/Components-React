@@ -15,7 +15,7 @@ function Button({
   outline, 
   rounded
 }) {
-  const classes = className('px-3 py-1.5 border rounded-sm', {
+  const classes = className('px-3 py-1.5 border rounded-md', {
     'border-prime bg-prime text-light': prime,
     'border-support bg-support text-light': support,
     'border-light bg-light text-dark': light,
@@ -24,7 +24,16 @@ function Button({
     'border-alert bg-alert text-dark': alert,
     'border-blaze bg-blaze text-light': blaze,
     'border-inform bg-inform text-light': inform,
-    'rounded-full': rounded
+    'rounded-full': rounded,
+    'bg-white': outline,
+    'text-prime': outline && prime,
+    'text-support': outline && support,
+    'text-dark': outline && dark,
+    'text-light': outline && light,
+    'text-forest': outline && forest,
+    'text-alert': outline && alert,
+    'text-blaze': outline && blaze,
+    'text-inform': outline && inform
   })
 
   return (

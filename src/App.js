@@ -4,7 +4,7 @@ import './index.css'
 
 function App() {
   return (
-    <div>
+    <div className='bg-[#777]'>
       <div>
         <Button prime>Login</Button>
       </div>
@@ -34,6 +34,30 @@ function App() {
       </div>
       <div>
         <Button support rounded>Buttons</Button>
+      </div>
+      <div>
+        <Button prime outline>Outline</Button>
+      </div>
+      <div>
+        <Button support outline>Buttons</Button>
+      </div>
+      <div>
+        <Button dark outline>Outline</Button>
+      </div>
+      <div>
+        <Button light outline>Buttons</Button>
+      </div>
+      <div>
+        <Button forest outline>Outline</Button>
+      </div>
+      <div>
+        <Button alert outline>Buttons</Button>
+      </div>
+      <div>
+        <Button blaze outline>Outline</Button>
+      </div>
+      <div>
+        <Button inform outline>Buttons</Button>
       </div>
     </div>
   )
