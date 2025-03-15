@@ -11,17 +11,17 @@ import { IoLocationOutline } from "react-icons/io5"
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi"
 
 {/* 
-<MdOutlineLogout />
-<AiOutlineHome />
-<LuSettings />
-<MdPowerSettingsNew />
-<TfiFaceSmile />
-<TfiFaceSad />
-<RiUserLine />
-<IoMdInformationCircleOutline />
-<IoLocationOutline />
-<HiArrowLeft />
-<HiArrowRight /> */}
+
+
+
+
+
+
+
+
+
+
+ */}
 
 function App() {
   return (
@@ -33,34 +33,64 @@ function App() {
         </Button>
       </div>
       <div>
-        <Button support>Register</Button>
+        <Button support>
+          <RiUserLine />
+          Register
+        </Button>
       </div>
       <div>
-        <Button dark>Submit</Button>
+        <Button dark>
+          <LuSettings />
+          Settings
+        </Button>
       </div>
       <div>
-        <Button light>Cancel</Button>
+        <Button light>
+          <IoLocationOutline />
+          City?
+        </Button>
       </div>
       <div>
-        <Button forest>Read more</Button>
+        <Button forest>
+          <TfiFaceSmile />
+          Satisfied?
+        </Button>
       </div>
       <div>
-        <Button alert>Logout</Button>
+        <Button alert>
+          <MdOutlineLogout />
+          Logout
+        </Button>
       </div>
       <div>
-        <Button blaze>Prev</Button>
+        <Button blaze>
+          <TfiFaceSad />
+          Report Issue
+        </Button>
       </div>
       <div>
-        <Button inform>Next</Button>
+        <Button inform>
+          <IoMdInformationCircleOutline />
+          Information
+        </Button>
       </div>
       <div>
-        <Button prime rounded>Rounded</Button>
+        <Button prime rounded>
+          <HiArrowLeft />
+          Prev
+        </Button>
       </div>
       <div>
-        <Button support rounded>Buttons</Button>
+        <Button support rounded>
+          <HiArrowRight />
+          Next
+        </Button>
       </div>
       <div>
-        <Button prime outline>Outline</Button>
+        <Button prime outline>
+          <MdPowerSettingsNew />
+          Power
+        </Button>
       </div>
       <div>
         <Button support outline>Buttons</Button>
@@ -72,7 +102,10 @@ function App() {
         <Button alert outline>Buttons</Button>
       </div>
       <div>
-        <Button blaze outline>Outline</Button>
+        <Button blaze outline>
+          <AiOutlineHome />
+          Home
+        </Button>
       </div>
       <div>
         <Button inform outline>Buttons</Button>
