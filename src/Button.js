@@ -2,27 +2,7 @@ import React from 'react'
 import className from 'classnames'
 import PropTypes from 'prop-types'
 import { twMerge } from 'tailwind-merge'
-import { MdOutlineLogin, MdOutlineLogout,MdPowerSettingsNew } from "react-icons/md"
-import { AiOutlineHome } from "react-icons/ai"
-import { LuSettings } from "react-icons/lu"
-import { TfiFaceSmile, TfiFaceSad } from "react-icons/tfi"
-import { RiUserLine } from "react-icons/ri"
-import { IoMdInformationCircleOutline } from "react-icons/io"
-import { IoLocationOutline } from "react-icons/io5"
-import { HiArrowLeft, HiArrowRight } from "react-icons/hi"
 
-{/* <MdOutlineLogin />
-<MdOutlineLogout />
-<AiOutlineHome />
-<LuSettings />
-<MdPowerSettingsNew />
-<TfiFaceSmile />
-<TfiFaceSad />
-<RiUserLine />
-<IoMdInformationCircleOutline />
-<IoLocationOutline />
-<HiArrowLeft />
-<HiArrowRight /> */}
 
 function Button({
   children,
