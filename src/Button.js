@@ -17,13 +17,13 @@ function Button({
 }) {
   const classes = className('px-3 py-1.5 border', {
     'border-prime bg-prime text-light': prime,
-    'border-support bg-support text-light': prime,
-    'border-light bg-light text-dark': prime,
-    'border-dark bg-dark text-light': prime,
-    'border-forest bg-forest text-light': prime,
-    'border-alert bg-alert text-dark': prime,
-    'border-blaze bg-blaze text-light': prime,
-    'border-inform bg-inform text-light': prime
+    'border-support bg-support text-light': support,
+    'border-light bg-light text-dark': light,
+    'border-dark bg-dark text-light': dark,
+    'border-forest bg-forest text-light': forest,
+    'border-alert bg-alert text-dark': alert,
+    'border-blaze bg-blaze text-light': blaze,
+    'border-inform bg-inform text-light': inform
   })
 
   return (

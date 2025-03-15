@@ -9,12 +9,12 @@ function App() {
         <Button prime>Login</Button>
       </div>
       <div>
-        <Button support rounded >Register</Button>
+        <Button support>Register</Button>
       </div>
       <div>
-        <Button dark outline>Submit</Button>
+        <Button dark>Submit</Button>
       </div>
-      <div className='p-10 bg-black'>
+      <div>
         <Button light>Cancel</Button>
       </div>
       <div>
