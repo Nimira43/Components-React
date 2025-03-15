@@ -29,6 +29,12 @@ function App() {
       <div>
         <Button inform>Next</Button>
       </div>
+      <div>
+        <Button prime rounded>Rounded</Button>
+      </div>
+      <div>
+        <Button support rounded>Buttons</Button>
+      </div>
     </div>
   )
 }
