@@ -1,12 +1,15 @@
-import classNames from 'classnames'
+import className from 'classnames'
 
 function Button({
   children,
   primary,
+  support,
+  light,
   dark, 
   forest, 
   alert,
   blaze, 
+  inform,
   outline, 
   rounded
 }) {
