@@ -10,7 +10,7 @@ import { IoMdInformationCircleOutline } from "react-icons/io"
 import { IoLocationOutline } from "react-icons/io5"
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi"
 
-{/* <MdOutlineLogin />
+{/* 
 <MdOutlineLogout />
 <AiOutlineHome />
 <LuSettings />
@@ -27,7 +27,10 @@ function App() {
   return (
     <div className='bg-[#777] p-10'>
       <div>
-        <Button prime>Login</Button>
+        <Button prime>
+          <MdOutlineLogin />
+          Login
+        </Button>
       </div>
       <div>
         <Button support>Register</Button>
