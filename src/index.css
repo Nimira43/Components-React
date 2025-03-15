@@ -7,3 +7,7 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
+
+button > svg {
+  margin-right: 5px;
+}

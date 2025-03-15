@@ -3,7 +3,6 @@ import className from 'classnames'
 import PropTypes from 'prop-types'
 import { twMerge } from 'tailwind-merge'
 
-
 function Button({
   children,
   prime,
