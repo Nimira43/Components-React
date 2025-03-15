@@ -4,7 +4,7 @@ import './index.css'
 
 function App() {
   return (
-    <div className='bg-[#777]'>
+    <div className='bg-[#777] p-10'>
       <div>
         <Button prime>Login</Button>
       </div>
