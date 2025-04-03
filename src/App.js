@@ -11,19 +11,9 @@ import { IoLocationOutline } from "react-icons/io5"
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi"
 
 function App() {
-  const handleClick = () => {
-    console.log('Click!!!')
-  }
-
+  
   return (
     <div className='bg-[#777] p-10'>
-      <div>
-        <Button prime outline onClick={handleClick}>
-          <MdOutlineLogin />
-          Login
-        </Button>
-      </div>
-      <hr />
       <div>
         <Button prime>
           <MdOutlineLogin />
