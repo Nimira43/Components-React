@@ -1,6 +1,6 @@
 import React from 'react'
-import Button from './Button'
-import './index.css'
+import Button from './components/Button'
+
 import { MdOutlineLogin, MdOutlineLogout,MdPowerSettingsNew } from "react-icons/md"
 import { AiOutlineHome } from "react-icons/ai"
 import { LuSettings } from "react-icons/lu"
