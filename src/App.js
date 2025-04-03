@@ -20,6 +20,10 @@ function App() {
       content: 'Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is enabled by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth\'s water is contained in its global ocean, covering 70.8% of Earth\'s crust. The remaining 29.2% of Earth\'s crust is land, most of which is located in the form of continental landmasses within Earth\'s land hemisphere.'
     },
     {
+      label: 'Eris',
+      content: 'Eris is the most massive and second-largest known dwarf planet in the Solar System. It is a trans-Neptunian object in the scattered disk and has a high-eccentricity orbit. Eris was discovered in January 2005 by a Palomar Observatory based team and verified later that year. It was named in September 2006 after the Greco Roman goddess of strife and discord. Eris is the ninth-most massive known object orbiting the Sun and the sixteenth-most massive overall in the Solar System (counting moons).'
+    },
+    {
       label: 'Saturn',
       content: 'Saturn is the sixth planet from the Sun and the second largest in the Solar System, after Jupiter. It is a gas giant, with an average radius of about nine times that of Earth. It has an eighth the average density of Earth, but is over 95 times more massive. Even though Saturn is almost as big as Jupiter, Saturn has less than a third its mass.'
     },
