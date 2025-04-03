@@ -1,10 +1,9 @@
 import React from 'react'
-import ButtonPage from './pages/ButtonPage'
 
 function App() { 
   return (
     <div>
-      <ButtonPage />
+      <h1>Accordion Component</h1>
     </div>
   )
 }
