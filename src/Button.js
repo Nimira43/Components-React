@@ -8,14 +8,14 @@ function Button({
   prime,
   support,
   light,
-  dark, 
-  forest, 
+  dark,
+  forest,
   alert,
-  blaze, 
+  blaze,
   inform,
-  outline, 
+  outline,
   rounded,
-  onClick,
+  ...rest
 }) {
   const classes = twMerge(
     className('px-3 py-1.5 border rounded-md flex items-center uppercase', {
@@ -39,7 +39,7 @@ function Button({
   )
   return (
     <button
-      onClick={onClick}
+      {...rest}
       className={classes}
     >
       {children}
