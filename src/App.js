@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='bg-[#777] p-10'>
       <div>
-        <Button prime>
+        <Button prime className='mb-5'>
           <MdOutlineLogin />
           Login
         </Button>

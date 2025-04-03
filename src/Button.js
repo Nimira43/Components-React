@@ -18,7 +18,7 @@ function Button({
   ...rest
 }) {
   const classes = twMerge(
-    className('px-3 py-1.5 border rounded-md flex items-center uppercase', {
+    className(rest.className, 'px-3 py-1.5 border rounded-md flex items-center uppercase', {
       'border-prime bg-prime text-light': prime,
       'border-support bg-support text-light': support,
       'border-light bg-light text-dark': light,
