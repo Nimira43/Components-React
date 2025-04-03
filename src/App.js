@@ -16,7 +16,7 @@ function App() {
       content: '8th planet from the Sun'
     }
   ]
-
+  console.log(planets)
 
   return (
     <div>
