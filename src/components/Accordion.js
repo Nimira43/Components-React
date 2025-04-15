@@ -1,9 +1,17 @@
 import React from 'react'
 
 function Accordion({ items }) { 
+  const renderedItems = items.map((item) => {
+    return (
+      <div>
+        <div>{item.label}</div>
+        <div>{item.content}</div>
+      </div>
+    )
+  })
   return (
     <div>
-      <h1>Accordion Component</h1>
+      {renderedItems}
     </div>
   )
 }
