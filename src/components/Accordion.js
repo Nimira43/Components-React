@@ -23,16 +23,29 @@ function Accordion({ items }) {
 
     return (
       <div key={item.id}>
-        <div onClick={() => handleClick(index)}>
+        <div
+          onClick={() => handleClick(index)}
+          className='flex p-3 bg-light border-b items-center cursor-pointer'
+        >
           {icon}
           {item.label}
         </div>
-        {isExpanded && <div>{item.content}</div>}
+        {
+          isExpanded
+          &&
+          <div
+            className='border-b p-5'
+          >
+            {item.content}
+          </div>
+        }
       </div>
     )
   })
   return (
-    <div>
+    <div
+      className='border-x border-t rounded'
+    >
       {renderedItems}
     </div>
   )
