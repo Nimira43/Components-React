@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { AiOutlineCaretLeft, AiOutlineCaretDown } from 'react-icons/ai'
 
 function Accordion({ items }) { 
   const [expandedIndex, setExpandedIndex] = useState(0)
