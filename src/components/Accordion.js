@@ -13,7 +13,9 @@ function Accordion({ items }) {
     const isExpanded = index === expandedIndex
 
     const icon =
-      <span>
+      <span
+        className='text-xl'
+      >
         {isExpanded ?
           <AiOutlineCaretDown />
           :
