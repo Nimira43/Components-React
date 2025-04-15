@@ -1,6 +1,9 @@
 import React from 'react'
+import { useState } from 'react'
 
 function Accordion({ items }) { 
+  const [expandedIndex, setExpandedIndex] = useState(0)
+  
   const renderedItems = items.map((item) => {
     return (
       <div key={item.id}>
