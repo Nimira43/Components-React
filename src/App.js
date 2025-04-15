@@ -1,12 +1,12 @@
 import React from 'react'
-import { planets } from './constants/planets'
+import { items } from './constants/planets'
 import Accordion from './components/Accordion'
 
 function App() { 
 
   return (
     <div>
-      <Accordion items={planets}/>
+      <Accordion items={items}/>
     </div>
   )
 }

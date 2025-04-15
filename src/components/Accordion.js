@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Accordion() { 
+function Accordion({ items }) { 
   return (
     <div>
       <h1>Accordion Component</h1>
