@@ -25,10 +25,10 @@ function Accordion({ items }) {
       <div key={item.id}>
         <div
           onClick={() => handleClick(index)}
-          className='flex p-3 bg-light border-b items-center cursor-pointer'
+          className='flex justify-between p-3 bg-light border-b items-center cursor-pointer'
         >
-          {icon}
           {item.label}
+          {icon}
         </div>
         {
           isExpanded
