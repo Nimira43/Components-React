@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { AiOutlineCaretLeft, AiOutlineCaretDown } from 'react-icons/ai'
 
 function Accordion({ items }) { 
-  const [expandedIndex, setExpandedIndex] = useState(0)
+  const [expandedIndex, setExpandedIndex] = useState(-1)
 
   const handleClick = (nextIndex) => {
     setExpandedIndex(nextIndex)
