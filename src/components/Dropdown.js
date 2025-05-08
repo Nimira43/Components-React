@@ -31,7 +31,7 @@ function Dropdown({
   let content = 'Select...'
   if (selection) {
   content = selection.label
-}
+} 
 
 
   return (
@@ -39,7 +39,7 @@ function Dropdown({
       <div
         onClick={handleClick}
       >
-        Select...
+        {content}
       </div>
       {isOpen &&
         <div>
