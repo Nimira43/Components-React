@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from 'react'
 
 function Dropdown({ options }) {
+  const [isOpen, setIsOpen] = useState(false)
+
   const renderedOptions = options.map((option) => {
     return (
       <div key={option.value}>
