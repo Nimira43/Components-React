@@ -2,8 +2,8 @@ import React from 'react'
 import { items } from './planetsInfo/planets'
 import Accordion from '../components/Accordion'
 
-function App() { 
+function AccordionPage() { 
   return <Accordion items={items}/>
 }
 
-export default App
+export default AccordionPage
