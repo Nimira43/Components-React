@@ -21,7 +21,7 @@ export const options = [
   },
   {
     label: 'Black',
-    value: 'Black'
+    value: 'black'
   },
   {
     label: 'Orange',
