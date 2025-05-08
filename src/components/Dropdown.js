@@ -28,6 +28,12 @@ function Dropdown({
     )
   })
 
+  let content = 'Select...'
+  if (selection) {
+  content = selection.label
+}
+
+
   return (
     <div>
       <div
