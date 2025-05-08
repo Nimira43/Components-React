@@ -1,16 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-// import App from './App'
+import App from './App'
 // import ButtonPage from './pages/ButtonPage'
-import AccordianPage from './pages/AccordionPage'
+// import AccordianPage from './pages/AccordionPage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <ButtonPage /> */}
-    <AccordianPage />
+    {/* <AccordianPage /> */}
   </React.StrictMode>
 )
 
