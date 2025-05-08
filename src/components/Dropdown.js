@@ -18,8 +18,16 @@ function Dropdown({ options }) {
 
   return (
     <div>
-      <div>Select...</div>
-      <div>{renderedOptions}</div>
+      <div
+        onClick={handleClick}
+      >
+        Select...
+      </div>
+      {isOpen &&
+        <div>
+          {renderedOptions}
+        </div>
+      }
     </div>
   )
 }
