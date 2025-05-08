@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Dropdown() {
+function Dropdown({ options }) {
   return (
     <div>
       <h1>Dropdown</h1>
