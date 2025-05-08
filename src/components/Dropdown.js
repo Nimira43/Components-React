@@ -1,9 +1,19 @@
 import React from 'react'
 
 function Dropdown({ options }) {
+  const renderedOptions = options.map((option) => {
+    return (
+      <div key={option.value}>
+        {option.label}
+      </div>
+    )
+  })
+
+
   return (
     <div>
-      <h1>Dropdown</h1>
+      <div>Select...</div>
+      <div>{renderedOptions}</div>
     </div>
   )
 }
