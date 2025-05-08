@@ -1,7 +1,4 @@
 import React from 'react'
-import { options } from '../constants/colours'
-
-console.log(options)
 
 function Dropdown() {
   return (

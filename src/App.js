@@ -1,10 +1,11 @@
 import React from 'react'
 import Dropdown from './components/Dropdown'
+import { options } from './constants/colours'
 
 function App() { 
 
   return (
-      <Dropdown />
+      <Dropdown options={options}/>
   )
 }
 
