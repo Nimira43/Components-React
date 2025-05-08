@@ -14,7 +14,7 @@ function Dropdown({
 
   const handleOptionClick = (option) => {
     setIsOpen(false)
-    console.log(option)
+    onSelect(option)
   }
 
   const renderedOptions = options.map((option) => {
