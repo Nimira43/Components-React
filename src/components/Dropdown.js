@@ -1,7 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
 
-function Dropdown({ options }) {
+function Dropdown({
+  options,
+  selection,
+  onSelect
+}) {
   const [isOpen, setIsOpen] = useState(false)
 
   const handleClick = () => {
