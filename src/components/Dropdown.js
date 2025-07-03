@@ -30,7 +30,7 @@ function Dropdown({
   return (
     <div className='w-48 relative'>
       <Panel
-        className='flex justify-between items-center cursor-pointer border rounded p-3 shadow bg-[#fffcfa] w-full'
+        className='flex justify-between items-center cursor-pointer'
         onClick={handleClick}
       >
         {value?.label || 'Select...'}
@@ -38,7 +38,7 @@ function Dropdown({
       </Panel>
       {isOpen &&
         <Panel 
-          className='absolute top-full border rounded p-3 shadow bg-[#fffcfa] w-full'
+          className='absolute top-full'
         >
           {renderedOptions}
         </Panel>
