@@ -37,11 +37,11 @@ function Dropdown({
         <AiOutlineCaretDown />
       </Panel>
       {isOpen &&
-        <div 
+        <Panel 
           className='absolute top-full border rounded p-3 shadow bg-[#fffcfa] w-full'
         >
           {renderedOptions}
-        </div>
+        </Panel>
       }
     </div>
   )
