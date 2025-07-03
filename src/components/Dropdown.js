@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { AiOutlineCaretDown } from 'react-icons/ai'
+import Panel from './Panel'
 
 function Dropdown({
   options,
@@ -28,13 +29,13 @@ function Dropdown({
   })
   return (
     <div className='w-48 relative'>
-      <div
+      <Panel
         className='flex justify-between items-center cursor-pointer border rounded p-3 shadow bg-[#fffcfa] w-full'
         onClick={handleClick}
       >
         {value?.label || 'Select...'}
         <AiOutlineCaretDown />
-      </div>
+      </Panel>
       {isOpen &&
         <div 
           className='absolute top-full border rounded p-3 shadow bg-[#fffcfa] w-full'
