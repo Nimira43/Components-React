@@ -1,6 +1,6 @@
 import classNames from 'classnames'
 
-function Panel() {
+function Panel({ children, className, ...rest}) {
 
 }
 
