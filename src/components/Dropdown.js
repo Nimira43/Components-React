@@ -44,7 +44,9 @@ function Dropdown({
     )
   })
   return (
-    <div className='w-48 relative'>
+    <div 
+      ref={divEl}
+      className='w-48 relative'>
       <Panel
         className='flex justify-between items-center cursor-pointer'
         onClick={handleClick}
