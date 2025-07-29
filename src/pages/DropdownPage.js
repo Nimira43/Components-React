@@ -1,7 +1,7 @@
 import React from 'react'
-import Dropdown from './components/Dropdown'
+import Dropdown from '../components/Dropdown'
 import { useState } from 'react'
-import { options } from './constants/colours'
+import { options } from './coloursInfo/colours'
 
 function App() { 
   const [selection, setSelection] = useState(null)
