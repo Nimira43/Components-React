@@ -9,6 +9,13 @@ function Dropdown({
   onChange
 }) {
   const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    const handler = (event) => {
+      console.log(event.target)
+    }
+  }, [])
+
   const handleClick = () => {
     setIsOpen(!isOpen)
   }
