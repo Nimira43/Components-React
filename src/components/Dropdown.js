@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { AiOutlineCaretDown } from 'react-icons/ai'
 import Panel from './Panel'
 
@@ -12,10 +12,12 @@ function Dropdown({
   const handleClick = () => {
     setIsOpen(!isOpen)
   }
+
   const handleOptionClick = (option) => {
     setIsOpen(false)
     onChange(option)
   }
+
   const renderedOptions = options.map((option) => {
     return (
       <div
