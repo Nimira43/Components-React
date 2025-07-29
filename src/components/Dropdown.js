@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { AiOutlineCaretDown } from 'react-icons/ai'
 import Panel from './Panel'
 
@@ -14,7 +14,12 @@ function Dropdown({
     const handler = (event) => {
       console.log(event.target)
     }
+
     document.addEventListener('click', handler, true)
+
+    return () => {
+      document.removeEventListener('click', handler)
+    }
   }, [])
 
   const handleClick = () => {
