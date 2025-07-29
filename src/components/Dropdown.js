@@ -9,6 +9,7 @@ function Dropdown({
   onChange
 }) {
   const [isOpen, setIsOpen] = useState(false)
+  const divEl = useRef()
 
   useEffect(() => {
     const handler = (event) => {
