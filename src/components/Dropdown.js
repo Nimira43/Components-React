@@ -13,7 +13,7 @@ function Dropdown({
 
   useEffect(() => {
     const handler = (event) => {
-      console.log(event.target)
+      console.log(divEl)
     }
 
     document.addEventListener('click', handler, true)
@@ -46,7 +46,8 @@ function Dropdown({
   return (
     <div 
       ref={divEl}
-      className='w-48 relative'>
+      className='w-48 relative'
+    >
       <Panel
         className='flex justify-between items-center cursor-pointer'
         onClick={handleClick}
