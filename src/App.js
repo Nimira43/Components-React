@@ -17,11 +17,11 @@ function App() {
         value={selection}
         onChange={handleSelect}
       />
-      <Dropdown
+      {/* <Dropdown
         options={options}
         value={selection}
         onChange={handleSelect}
-      />
+      /> */}
     </div>
   )
 }
