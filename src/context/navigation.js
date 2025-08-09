@@ -4,13 +4,20 @@ import { createContext, useState } from 'react'
 const NavigationContext = createContext()
 
 function NavigationProvider({children}) {
-  const [currentPath, setCurrentPath] = useState()
+  const [currentPath, setCurrentPath] = useState(window.location.pathname)
 
+  useEffect(() => {
+    const handler = () => {
+
+    }
+
+  }, [])
 
   return (
     <NavigationContext.Provider
       value={{}}
     >
+      { currentPath }
       { children }
     </NavigationContext.Provider>
   )
