@@ -18,10 +18,19 @@ function NavigationProvider({children}) {
   
   }, [])
 
+  const navigate = (to) => {
+    window.history.pushState({}, '', to)
+    setCurrentPath(to)
+  }
+
   return (
     <NavigationContext.Provider
       value={{}}
     >
+      <div>
+        <button>Accordion</button>
+        <button>Dropdown</button>
+      </div>
       { currentPath }
       { children }
     </NavigationContext.Provider>
