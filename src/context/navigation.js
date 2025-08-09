@@ -1,5 +1,5 @@
 import React from 'react'
-import { createContext, useState } from 'react'
+import { createContext, useState, useEffect } from 'react'
 
 const NavigationContext = createContext()
 
@@ -28,8 +28,16 @@ function NavigationProvider({children}) {
       value={{}}
     >
       <div>
-        <button>Accordion</button>
-        <button>Dropdown</button>
+        <button 
+          onClick={() => navigate('/accordion')}
+        >
+          Accordion
+        </button>
+        <button
+          onClick={() => navigate('/dropdown')}
+        >
+          Dropdown
+        </button>
       </div>
       { currentPath }
       { children }
