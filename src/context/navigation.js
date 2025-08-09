@@ -10,7 +10,7 @@ function NavigationProvider({children}) {
     const handler = () => {
 
     }
-
+    window.addEventListener('popstate', handler)
   }, [])
 
   return (
