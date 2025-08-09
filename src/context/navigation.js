@@ -8,9 +8,14 @@ function NavigationProvider({children}) {
 
   useEffect(() => {
     const handler = () => {
-
+      setCurrentPath(window.location.pathname)
     }
     window.addEventListener('popstate', handler)
+  
+    return () => {
+      window.removeEventListener('popstate', handler)
+    }
+  
   }, [])
 
   return (
