@@ -4,7 +4,9 @@ const NavigationContext = createContext()
 
 function NavigationProvider({children}) {
   return (
-    <NavigationContext.Provider>
+    <NavigationContext.Provider
+      value={{}}
+    >
       { children }
     </NavigationContext.Provider>
   )
