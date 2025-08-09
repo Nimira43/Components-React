@@ -12,4 +12,5 @@ function NavigationProvider({children}) {
   )
 }
 
+export { NavigationProvider }
 export default NavigationContext

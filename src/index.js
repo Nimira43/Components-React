@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './App'
+import { NavigationProvider } from './context/navigation'
+
 // import DropdownPage from './pages/DropdownPage'
 // import ButtonPage from './pages/ButtonPage'
 // import AccordianPage from './pages/AccordionPage'
