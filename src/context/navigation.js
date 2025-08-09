@@ -2,8 +2,12 @@ import { createContext } from 'react'
 
 const NavigationContext = createContext()
 
-const Provider = () => {
-  
+function NavigationProvider({children}) {
+  return (
+    <NavigationContext.Provider>
+      { children }
+    </NavigationContext.Provider>
+  )
 }
 
 export default NavigationContext
