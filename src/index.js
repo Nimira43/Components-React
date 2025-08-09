@@ -8,14 +8,22 @@ import { NavigationProvider } from './context/navigation'
 // import ButtonPage from './pages/ButtonPage'
 // import AccordianPage from './pages/AccordionPage'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const el = document.getElementById('root')
+const root = ReactDOM.createRoot(el)
+
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-    {/* <ButtonPage /> */}
-    {/* <AccordianPage /> */}
-    {/* <DropdownPage /> */}
-  </React.StrictMode>
+  // <React.StrictMode>
+    <NavigationProvider> 
+      <App />
+   </NavigationProvider> 
+    
+    // {/* <ButtonPage /> */}
+    // {/* <AccordianPage /> */}
+    // {/* <DropdownPage /> */}
+  
+//  </React.StrictMode>
 )
 
 /**
