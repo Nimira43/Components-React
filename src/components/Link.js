@@ -1,5 +1,5 @@
 function Link({ to, children }) {
-  const handleClick = () => {
+  const handleClick = (event) => {
     event.preventDefault()
   }
 
