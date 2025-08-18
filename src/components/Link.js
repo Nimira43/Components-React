@@ -1,6 +1,10 @@
+import { useContext } from 'react'
+
 function Link({ to, children }) {
   const handleClick = (event) => {
     event.preventDefault()
+
+
   }
 
   return (
