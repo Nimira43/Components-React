@@ -1,4 +1,6 @@
 function Link({ to, children }) {
+  const handleClick = () => {}
+
 
   return (
     <a
