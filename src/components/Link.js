@@ -7,7 +7,6 @@ function Link({ to, children }) {
 
   const handleClick = (event) => {
     event.preventDefault()
-
     navigate(to)
   }
 
