@@ -8,6 +8,8 @@ function Route({ path, children }) {
   if (path === currentPath) {
     return children
   }
+
+  return null
 }
 
 export default Route
