@@ -1,4 +1,3 @@
-import React from 'react'
 import Button from '../components/Button'
 
 import { MdOutlineLogin, MdOutlineLogout,MdPowerSettingsNew } from 'react-icons/md'
@@ -12,91 +11,100 @@ import { HiArrowLeft, HiArrowRight } from 'react-icons/hi'
 
 function ButtonPage() { 
   return (
-    <div className='bg-[#eee] p-10'>
+    <div className='bg-[#eee] p-4 flex justify-evenly'>
       <div>
-        <Button prime className='mb-5'>
-          <MdOutlineLogin />
-          Login
-        </Button>
+        <div className='mb-2'>
+          <Button prime>
+            <MdOutlineLogin />
+            Login
+          </Button>
+        </div>
+        <div className='mb-2'>
+          <Button support>
+            <RiUserLine />
+            Register
+          </Button>
+        </div>
+        <div className='mb-2'>
+          <Button dark>
+            <LuSettings />
+            Settings
+          </Button>
+        </div>
+        <div className='mb-2'>
+          <Button light>
+            <IoLocationOutline />
+            City?
+          </Button>
+        </div>
+        <div className='mb-2'>
+          <Button forest>
+            <TfiFaceSmile />
+            Satisfied?
+          </Button>
+        </div>
+        <div className='mb-2'>
+          <Button alert>
+            <MdOutlineLogout />
+            Logout
+          </Button>
+        </div>
+        <div className='mb-2'>
+          <Button blaze>
+            <TfiFaceSad />
+            Report Issue
+          </Button>
+        </div>
+        <div>
+          <Button inform>
+            <IoMdInformationCircleOutline />
+            Information
+          </Button>
+        </div>
       </div>
+      
       <div>
-        <Button support>
-          <RiUserLine />
-          Register
-        </Button>
+        <div className='mb-2'>
+          <Button prime rounded>
+            <HiArrowLeft />
+            Prev
+          </Button>
+        </div>
+        <div>
+          <Button support rounded>
+            <HiArrowRight />
+            Next
+          </Button>
+        </div>
       </div>
+      
       <div>
-        <Button dark>
-          <LuSettings />
-          Settings
-        </Button>
+        <div className='mb-2'>
+          <Button prime outline>
+            <MdPowerSettingsNew />
+            Power
+          </Button>
+        </div>
+        <div className='mb-2'>
+          <Button support outline>Buttons</Button>
+        </div>
+        <div className='mb-2'>
+          <Button forest outline>Outline</Button>
+        </div>
+        <div className='mb-2'>
+          <Button alert outline>Buttons</Button>
+        </div>
+        <div className='mb-2'>
+          <Button blaze outline>
+            <AiOutlineHome />
+            Home
+          </Button>
+        </div>
+        <div>
+          <Button inform outline>Buttons</Button>
+        </div>
       </div>
-      <div>
-        <Button light>
-          <IoLocationOutline />
-          City?
-        </Button>
-      </div>
-      <div>
-        <Button forest>
-          <TfiFaceSmile />
-          Satisfied?
-        </Button>
-      </div>
-      <div>
-        <Button alert>
-          <MdOutlineLogout />
-          Logout
-        </Button>
-      </div>
-      <div>
-        <Button blaze>
-          <TfiFaceSad />
-          Report Issue
-        </Button>
-      </div>
-      <div>
-        <Button inform>
-          <IoMdInformationCircleOutline />
-          Information
-        </Button>
-      </div>
-      <div>
-        <Button prime rounded>
-          <HiArrowLeft />
-          Prev
-        </Button>
-      </div>
-      <div>
-        <Button support rounded>
-          <HiArrowRight />
-          Next
-        </Button>
-      </div>
-      <div>
-        <Button prime outline>
-          <MdPowerSettingsNew />
-          Power
-        </Button>
-      </div>
-      <div>
-        <Button support outline>Buttons</Button>
-      </div>
-      <div>
-        <Button forest outline>Outline</Button>
-      </div>
-      <div>
-        <Button alert outline>Buttons</Button>
-      </div>
-      <div>
-        <Button blaze outline>
-          <AiOutlineHome />
-          Home
-        </Button>
-      </div>
-      <div>
-        <Button inform outline>Buttons</Button>
-      </div>
+      
     </div>
   )
 }
