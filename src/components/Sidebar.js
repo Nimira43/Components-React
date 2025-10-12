@@ -1,10 +1,27 @@
 import Link from './Link'
 
 function Sidebar() {
-  const links =[]
+  const links =[
+    {
+      label: 'Dropdown',
+      path: '/'
+    },
+    {
+      label: 'Accordion',
+      path: '/accordion'
+    },
+    {
+      label: 'Buttons',
+      path: '/buttons'
+    }
+  ]
 
 
-  return
+  return (
+    <div>
+
+    </div>
+  )
 }
 
 export default Sidebar
