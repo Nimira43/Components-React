@@ -12,7 +12,7 @@ import { HiArrowLeft, HiArrowRight } from 'react-icons/hi'
 
 function ButtonPage() { 
   return (
-    <div className='bg-[#777] p-10'>
+    <div className='bg-[#eee] p-10'>
       <div>
         <Button prime className='mb-5'>
           <MdOutlineLogin />
