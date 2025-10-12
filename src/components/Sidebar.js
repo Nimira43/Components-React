@@ -16,6 +16,11 @@ function Sidebar() {
     }
   ]
 
+  const renderedLinks = links.map((link) => {
+    return (
+      <Link></Link>
+    )
+  })
 
   return (
     <div>
