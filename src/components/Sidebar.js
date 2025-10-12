@@ -18,7 +18,12 @@ function Sidebar() {
 
   const renderedLinks = links.map((link) => {
     return (
-      <Link></Link>
+      <Link 
+        key={link.label}
+        to={link.path}
+      >
+        {link.label}
+      </Link>
     )
   })
 
