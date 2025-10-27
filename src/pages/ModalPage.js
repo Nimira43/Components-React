@@ -1,7 +1,9 @@
+import Modal from "../components/Modal"
+
 function ModalPage() {
   return (
     <div>
-      ModalPage
+      <Modal />
     </div>
   )
 }
