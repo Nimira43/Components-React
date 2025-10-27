@@ -1,10 +1,13 @@
 import useNavigation from '../hooks/use-navigation'
 import classNames from 'classnames'
 
-function Link({ to, children }) {
+function Link({ to, children, className }) {
   const { navigate } = useNavigation()
 
-  const classes = classNames('uppercase font-medium')
+  const classes = classNames(
+    'uppercase font-medium',
+    className
+  )
 
   const handleClick = (event) => {
     if (event.metaKey || event.ctrlKey) {
