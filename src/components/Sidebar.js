@@ -30,7 +30,7 @@ function Sidebar() {
   })
 
   return (
-    <div className='sticky top-0  flex flex-col align-start'>
+    <div className='sticky top-0  flex flex-col items-start'>
       {renderedLinks}
     </div>
   )
