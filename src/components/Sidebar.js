@@ -21,6 +21,7 @@ function Sidebar() {
       <Link 
         key={link.label}
         to={link.path}
+        className='mb-3'
       >
         {link.label}
       </Link>
