@@ -13,6 +13,8 @@ function ModalPage() {
     setShowModal(false)
   }
 
+  const modal = <Modal onClose={handleClose} />
+
   return (
     <div>
       <Button 
@@ -22,7 +24,7 @@ function ModalPage() {
         Open Modal
       </Button>
       {showModal &&
-        <Modal onClose={handleClose} />
+        
       }
     </div>
   )
