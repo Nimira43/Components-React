@@ -8,6 +8,8 @@ module.exports = {
         support: '#008080',
         light: '#fff',
         dark: '#000',
+        'grey-1': '#ccc',
+        'grey-2': '#eee',
         forest: '#228b22',
         alert: '#ffd700',
         blaze: '#b41818',

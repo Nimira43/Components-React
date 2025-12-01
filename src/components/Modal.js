@@ -1,7 +1,8 @@
 function Modal() {
   return (
     <div>
-      Modal
+      <div className='absolute inset-0 bg-grey'></div>
+      <div></div>
     </div>
   )
 }
