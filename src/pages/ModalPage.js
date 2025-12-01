@@ -13,7 +13,11 @@ function ModalPage() {
     setShowModal(false)
   }
 
-  const modal = <Modal onClose={handleClose} />
+  const modal = (
+    <Modal onClose={handleClose}>
+      <p>To do agree to the terms and conditions?</p>
+    </Modal>
+  )
 
   return (
     <div>
@@ -23,9 +27,7 @@ function ModalPage() {
       >
         Open Modal
       </Button>
-      {showModal &&
-        
-      }
+      {showModal && modal}
     </div>
   )
 }
