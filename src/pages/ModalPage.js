@@ -9,8 +9,10 @@ function ModalPage() {
     setShowModal(true)
   }
 
+  const handleClose = () => {}
+
   return (
-    <div className='relative'>
+    <div>
       <Button 
         prime
         onClick={handleClick}  
