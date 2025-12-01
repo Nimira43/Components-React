@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom'
 
-function Modal({ onClose }) {
+function Modal({ onClose, children, actionBar }) {
   return ReactDOM.createPortal(
     <div>
       <div

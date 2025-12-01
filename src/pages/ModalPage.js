@@ -22,9 +22,7 @@ function ModalPage() {
   const modal = (
     <Modal
       onClose={handleClose}
-      actionBar={
-        
-      }
+      actionBar={actionBar}
     >
       <p>To do agree to the terms and conditions?</p>
     </Modal>
