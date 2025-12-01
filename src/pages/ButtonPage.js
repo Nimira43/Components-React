@@ -11,7 +11,7 @@ import { HiArrowLeft, HiArrowRight } from 'react-icons/hi'
 
 function ButtonPage() { 
   return (
-    <div className='bg-[#eee] p-4 flex justify-evenly'>
+    <div className='bg-grey-2 p-4 flex justify-evenly'>
       <div>
         <div className='mb-2'>
           <Button prime>
