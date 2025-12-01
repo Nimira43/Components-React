@@ -9,7 +9,8 @@ function Modal() {
       <div className='absolute inset-40 p-10 bg-light'>
         Modal Test Text
       </div>
-    </div>
+    </div>,
+    document.querySelector('.modal-container')
   )
 }
 export default Modal
