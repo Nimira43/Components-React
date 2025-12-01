@@ -1,3 +1,5 @@
+import ReactDOM from 'react-dom'
+
 function Modal() {
   return (
     <div>
