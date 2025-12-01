@@ -10,7 +10,7 @@ function ModalPage() {
   }
 
   return (
-    <div>
+    <div className='relative'>
       <Button 
         prime
         onClick={handleClick}  
