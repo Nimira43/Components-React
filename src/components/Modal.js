@@ -5,7 +5,7 @@ function Modal() {
 
       </div>
       <div className='absolute inset-40 p-10 bg-light'>
-
+        Modal Test Text
       </div>
     </div>
   )
