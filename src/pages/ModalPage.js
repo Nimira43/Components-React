@@ -14,7 +14,14 @@ function ModalPage() {
   }
 
   const modal = (
-    <Modal onClose={handleClose}>
+    <Modal
+      onClose={handleClose}
+      actionBar={
+        <Button prime>
+          I Accept
+        </Button>
+      }
+    >
       <p>To do agree to the terms and conditions?</p>
     </Modal>
   )
