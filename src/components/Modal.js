@@ -8,7 +8,7 @@ function Modal({ onClose, children, actionBar }) {
         onClick={onClose}
       ></div>
       <div className='absolute inset-40 p-10 bg-light'>
-        <div className='flex flex-col justify-between'>
+        <div className='flex flex-col justify-between h-full'>
           {children}
           <div className='flex justify-end'>
             {actionBar}
