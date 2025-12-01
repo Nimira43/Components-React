@@ -8,7 +8,8 @@ function Modal({ onClose, children, actionBar }) {
         onClick={onClose}
       ></div>
       <div className='absolute inset-40 p-10 bg-light'>
-        Modal Test Text
+        {children}
+        {actionBar}
       </div>
     </div>,
     document.querySelector('.modal-container')
