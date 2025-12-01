@@ -21,7 +21,9 @@ function ModalPage() {
       >
         Open Modal
       </Button>
-      {showModal && <Modal />}
+      {showModal &&
+        <Modal onClose={handleClose} />
+      }
     </div>
   )
 }
