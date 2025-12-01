@@ -9,7 +9,9 @@ function ModalPage() {
     setShowModal(true)
   }
 
-  const handleClose = () => {}
+  const handleClose = () => {
+    setShowModal(false)
+  }
 
   return (
     <div>
