@@ -29,7 +29,7 @@ function ModalPage() {
       onClose={handleClose}
       actionBar={actionBar}
     >
-      <p>To do agree to the terms and conditions?</p>
+      <p>Do you agree to the terms and conditions?</p>
     </Modal>
   )
 
