@@ -18,13 +18,22 @@ function Accordion({ items }) {
     const isExpanded = index === expandedIndex
 
     const icon =
-      <span className='text-xl'>
-        {isExpanded ?
-          <AiOutlineCaretDown />
-          :
-          <AiOutlineCaretLeft />
-        }
+      // <span className='text-xl'>
+      //   {isExpanded ?
+      //     <AiOutlineCaretDown />
+      //     :
+      //     <AiOutlineCaretLeft />
+      //   }
+    // </span>
+      <span
+        className={`
+          text-xl transform transition-transform duration-300
+          ${isExpanded ? 'rotate-90' : 'rotate-0'}
+        `}
+      >
+        <AiOutlineCaretLeft />
       </span>
+
 
     return (
       <div key={item.id}>
