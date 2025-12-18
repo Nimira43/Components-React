@@ -54,7 +54,7 @@ function Dropdown({
       className='w-48 relative'
     >
       <Panel
-        className='flex justify-between items-center cursor-pointer'
+        className='bg-light flex justify-between items-center cursor-pointer'
         onClick={handleClick}
       >
         {value?.label || 'Select...'}
@@ -62,7 +62,7 @@ function Dropdown({
       </Panel>
       <Panel
         className={`
-          absolute top-full left-0 right-0 overflow-hidden transition-all duration-300
+          absolute top-full left-0 right-0 bg-light overflow-hidden transition-all duration-300
           ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}
         `}
       >
