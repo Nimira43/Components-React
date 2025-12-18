@@ -29,12 +29,12 @@ function Sidebar() {
         activeClassName='font-bold text-prime'
       >
         {link.label}
-      </Link>
+      </Link> 
     )
   })
 
   return (
-    <div className='sticky top-0  flex flex-col items-start'>
+    <div className='sticky top-0 flex flex-col items-start'>
       {renderedLinks}
     </div>
   )
