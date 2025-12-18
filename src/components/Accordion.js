@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { AiOutlineCaretLeft, AiOutlineCaretDown } from 'react-icons/ai'
+import { AiOutlineCaretLeft } from 'react-icons/ai'
 
 function Accordion({ items }) { 
   const [expandedIndex, setExpandedIndex] = useState(-1)
@@ -18,13 +18,6 @@ function Accordion({ items }) {
     const isExpanded = index === expandedIndex
 
     const icon =
-      // <span className='text-xl'>
-      //   {isExpanded ?
-      //     <AiOutlineCaretDown />
-      //     :
-      //     <AiOutlineCaretLeft />
-      //   }
-    // </span>
       <span
         className={`
           text-xl transform transition-transform duration-300
@@ -33,7 +26,6 @@ function Accordion({ items }) {
       >
         <AiOutlineCaretLeft />
       </span>
-
 
     return (
       <div key={item.id}>
