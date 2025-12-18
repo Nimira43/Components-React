@@ -18,9 +18,7 @@ function Accordion({ items }) {
     const isExpanded = index === expandedIndex
 
     const icon =
-      <span
-        className='text-xl'
-      >
+      <span className='text-xl'>
         {isExpanded ?
           <AiOutlineCaretDown />
           :
@@ -32,27 +30,24 @@ function Accordion({ items }) {
       <div key={item.id}>
         <div
           onClick={() => handleClick(index)}
-          className='flex justify-between p-3 bg-light border-b items-center cursor-pointer'
+          className='flex justify-between p-5 bg-light border-b items-center cursor-pointer'
         >
           {item.label}
           {icon}
         </div>
-        {
-          isExpanded
-          &&
-          <div
-            className='border-b p-5'
-          >
-            {item.content}
-          </div>
-        }
+        <div
+          className={`
+            overflow-hidden transition-all duration-300 
+            ${isExpanded ? 'max-h-[999px] p-5 border-b' : 'max-h-0 p-0'}
+          `}
+        >
+          {item.content}
+        </div>
       </div>
     )
   })
   return (
-    <div
-      className='border-x border-t rounded'
-    >
+    <div className='border-x border-t rounded'>
       {renderedItems}
     </div>
   )
