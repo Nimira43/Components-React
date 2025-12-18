@@ -2,7 +2,7 @@ export const items = [
   {
     id: '001',
     label: 'Pluto',
-    content: 'Pluto is the ninth planet in the Solar System. It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It is the largest known trans-Neptunian object by volume by a small margin, but is less massive than Eris. Like other Kuiper belt objects, Pluto is made primarily of ice and rock and is much smaller than the inner planets. Pluto has roughly one-sixth the mass of the Moon, and one-third its volume.'
+    content: 'Pluto IS the ninth planet in the Solar System. It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It is the largest known trans-Neptunian object by volume by a small margin, but is less massive than Eris. Like other Kuiper belt objects, Pluto is made primarily of ice and rock and is much smaller than the inner planets. Pluto has roughly one-sixth the mass of the Moon, and one-third its volume.'
   },
   {
     id: '002',
@@ -27,7 +27,7 @@ export const items = [
   {
     id: '006',
     label: 'Eris',
-    content: 'Eris is the most massive and second-largest known dwarf planet in the Solar System. It is a trans-Neptunian object in the scattered disk and has a high-eccentricity orbit. Eris was discovered in January 2005 by a Palomar Observatory based team and verified later that year. It was named in September 2006 after the Greco Roman goddess of strife and discord. Eris is the ninth-most massive known object orbiting the Sun and the sixteenth-most massive overall in the Solar System (counting moons).'    
+    content: 'Eris is the most massive and largest known dwarf planet in the Solar System. It is a trans-Neptunian object in the scattered disk and has a high-eccentricity orbit. Eris was discovered in January 2005 by a Palomar Observatory based team and verified later that year. It was named in September 2006 after the Greco Roman goddess of strife and discord. Eris is the ninth-most massive known object orbiting the Sun and the sixteenth-most massive overall in the Solar System (counting moons).'    
   },
   {
     id: '007',
