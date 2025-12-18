@@ -60,13 +60,15 @@ function Dropdown({
         {value?.label || 'Select...'}
         <AiOutlineCaretDown />
       </Panel>
-      {isOpen &&
-        <Panel 
-          className='absolute top-full'
-        >
-          {renderedOptions}
-        </Panel>
-      }
+      <Panel
+        className={`
+          absolute top-full left-0 right-0 overflow-hidden transition-all duration-300
+          ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}
+        `}
+      >
+        {renderedOptions}
+      </Panel>
+
     </div>
   )
 }
