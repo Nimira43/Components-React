@@ -1,23 +1,11 @@
 import Link from './Link'
 
-function Sidebar() {
+function Sidebar({ className = '' }) {
   const links =[
-    {
-      label: 'Dropdown',
-      path: '/'
-    },
-    {
-      label: 'Accordion',
-      path: '/accordion'
-    },
-    {
-      label: 'Buttons',
-      path: '/buttons'
-    },
-    {
-      label: 'Modal',
-      path: '/modal'
-    }
+    { label: 'Dropdown', path: '/' },
+    { label: 'Accordion', path: '/accordion' },
+    { label: 'Buttons', path: '/buttons' },
+    { label: 'Modal', path: '/modal' }
   ]
 
   const renderedLinks = links.map((link) => {
@@ -25,7 +13,7 @@ function Sidebar() {
       <Link 
         key={link.label}
         to={link.path}
-        className='mb-3'
+        className='md:mb-3 md:mr-0 mr-4'
         activeClassName='font-bold text-prime'
       >
         {link.label}
@@ -34,7 +22,7 @@ function Sidebar() {
   })
 
   return (
-    <div className='sticky top-0 flex flex-col items-start'>
+    <div className={`${className} flex flex-row md:flex-col items-start md:sticky md:top-0 `}>
       {renderedLinks}
     </div>
   )
