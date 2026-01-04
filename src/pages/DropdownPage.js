@@ -1,7 +1,7 @@
 import React from 'react'
 import Dropdown from '../components/Dropdown'
 import { useState } from 'react'
-import { options } from './coloursInfo/colours'
+import { options } from '../data/appData'
 
 function DropdownPage() { 
   const [selection, setSelection] = useState(null)

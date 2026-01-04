@@ -1,5 +1,5 @@
 import React from 'react'
-import { items } from './planetsInfo/planets'
+import { items } from '../data/appData'
 import Accordion from '../components/Accordion'
 
 function AccordionPage() { 
