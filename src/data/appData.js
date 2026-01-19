@@ -138,3 +138,56 @@ export const formulaOne = (
     </p>   
   </div>
 )
+
+export const fruits = [
+  {
+    name: 'Orange',
+    colour: 'bg-orange-500',
+    score: 10
+  },
+  {
+    name: 'Pineapple',
+    colour: 'bg-yellow-500',
+    score: 9
+  },
+  {
+    name: 'Mango',
+    colour: 'bg-orange-400', 
+    score: 8
+  },
+  {
+    name: 'Grape',
+    colour: 'bg-purple-600',
+    score: 7
+  },
+  {
+    name: 'Apple',
+    colour: 'bg-red-500',
+    score: 6
+  },
+  {
+    name: 'Banana',
+    colour: 'bg-yellow-400',
+    score: 5
+  },
+  {
+    name: 'Melon',
+    colour: 'bg-emerald-400', 
+    score: 4
+  },
+  {
+    name: 'Pear',
+    colour: 'bg-green-500',
+    score: 3
+  },
+  {
+    name: 'Lemon',
+    colour: 'bg-yellow-300',
+    score: 2
+  },
+  {
+    name: 'Lime',
+    colour: 'bg-lime-600',
+    score: 1
+  }  
+]
